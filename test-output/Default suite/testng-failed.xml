@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pratian.pas.automation.Usecase.TestUsecase">
+        <methods>
+          <include name="checkInprogress" invocation-numbers="0"/>
+          <include name="addFoodItem" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="checkLogoutLink" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="checkAboutus"/>
+          <include name="checkAddFoods" invocation-numbers="0"/>
+          <include name="checkLoginWithValidCredentials" invocation-numbers="0"/>
+          <include name="checkDeliveredTab" invocation-numbers="0"/>
+          <include name="checkLoginForPendingOrders" invocation-numbers="0"/>
+          <include name="checkLoginWithInValidCredentials" invocation-numbers="0"/>
+          <include name="checkcontactus" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.pratian.pas.automation.Usecase.TestUsecase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
